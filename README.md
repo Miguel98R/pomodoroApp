@@ -1,22 +1,36 @@
 # Pomodoro App
 
-La **Pomodoro App** es una aplicación de temporizador que te ayuda a administrar tu tiempo de trabajo y descanso utilizando la técnica Pomodoro. Esta técnica implica trabajar en períodos cortos y concentrados, seguidos de breves descansos. La aplicación te permite configurar el tiempo de trabajo y descanso, y te proporciona notificaciones de audio para mantenerte enfocado.
+La Pomodoro App es una aplicación de temporizador basada en la técnica Pomodoro que ayuda a mejorar la productividad y gestionar el tiempo de trabajo y descanso. Esta aplicación utiliza Expo para su desarrollo y ejecución.
 
 ## Características
 
-- Temporizador Pomodoro con intervalos de trabajo y descanso.
-- Configuración personalizada del tiempo de trabajo y descanso.
-- Notificaciones de audio para indicar el inicio y el final de los períodos de trabajo y descanso.
-- Interfaz de usuario intuitiva y fácil de usar.
+- Temporizador Pomodoro: Define períodos de trabajo y descanso.
+- Cambio de Opciones: Puedes cambiar entre las opciones de Pomodoro, Short Break y Long Break.
+- Sonido de Notificación: Recibe notificaciones auditivas cuando inicia o detiene un período.
+- Fácil de Usar: Interfaz de usuario intuitiva y botones de inicio/parada.
 
-## Cómo usar
+## Instrucciones de Uso
 
-1. Descarga e instala la aplicación en tu dispositivo móvil.
-2. Abre la aplicación.
-3. Configura el tiempo de trabajo y el tiempo de descanso.
-4. Presiona el botón "START" para iniciar el temporizador de Pomodoro.
-5. Cuando el temporizador alcance cero, escucharás una notificación de audio y podrás tomar un descanso.
-6. Repite el proceso según tus necesidades.
+Para ejecutar la Pomodoro App, sigue estos pasos:
+
+1. Asegúrate de tener [Node.js](https://nodejs.org/) y [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) instalados en tu sistema.
+
+2. Clona este repositorio:
+   
+       git clone https://github.com/Miguel98R/PomodoroApp.git
+3. Navega al directorio del proyecto:
+
+        cd PomodoroApp
+4. Instala las dependencias:
+   
+       npm install
+
+5. Inicia la aplicación:
+
+       npx expo start
+6. Abre la aplicación en un emulador o escanea el código QR con la aplicación Expo Go en tu dispositivo móvil.
+
+¡Disfruta de la Pomodoro App y mejora tu productividad!
 
 ## Tecnologías utilizadas
 
